@@ -1,6 +1,5 @@
 export default function ResumePage() {
   const skills = [
-    "Next.js",
     "HTML",
     " CSS",
     "JAVA",
