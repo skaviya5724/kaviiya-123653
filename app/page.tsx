@@ -4,21 +4,21 @@ export default function ResumePage() {
   const projects = ["Online Rental Car Booking System"];
 
   return (
-    <main className="min-h-screen bg-gradient-to-br from-pink-100 via-pink-200 to-pink-300 py-10 px-4">
-      <div className="max-w-5xl mx-auto bg-white shadow-2xl rounded-3xl overflow-hidden border border-pink-200">
+    <main className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300 py-10 px-4">
+      <div className="max-w-5xl mx-auto bg-white shadow-2xl rounded-3xl overflow-hidden border border-blue-200">
 
         {/* Header */}
-        <div className="bg-gradient-to-r from-pink-800 via-pink-700 to-pink-500 text-white p-10">
+        <div className="bg-gradient-to-r from-blue-800 via-blue-700 to-blue-500 text-white p-10">
           <h1 className="text-5xl font-extrabold tracking-wide uppercase">
             Kaviya
           </h1>
 
-          <p className="text-lg mt-3 text-pink-100 font-medium">
+          <p className="text-lg mt-3 text-blue-100 font-medium">
             Student
           </p>
 
           <div className="mt-6 grid md:grid-cols-2 gap-3 text-sm">
-            <p className="bg-pink-700/40 px-4 py-2 rounded-xl">
+            <p className="bg-blue-700/40 px-4 py-2 rounded-xl">
               📍 Namakkal, Tamil Nadu, India
             </p>
 
@@ -26,7 +26,7 @@ export default function ResumePage() {
               📧 s.kaviya5724@gmail.com
             </p>
 
-            <p className="bg-pink-700/40 px-4 py-2 rounded-xl">
+            <p className="bg-blue-700/40 px-4 py-2 rounded-xl">
               📞 +91 6369955734
             </p>
           </div>
@@ -36,11 +36,11 @@ export default function ResumePage() {
         <div className="grid md:grid-cols-3">
 
           {/* Sidebar */}
-          <aside className="bg-pink-50 p-8 border-r border-pink-100">
+          <aside className="bg-blue-50 p-8 border-r border-blue-100">
 
             {/* Skills */}
             <section>
-              <h2 className="text-2xl font-bold mb-5 text-pink-900 border-b-2 border-pink-300 pb-2">
+              <h2 className="text-2xl font-bold mb-5 text-blue-900 border-b-2 border-blue-300 pb-2">
                 Skills
               </h2>
 
@@ -48,7 +48,7 @@ export default function ResumePage() {
                 {skills.map((skill) => (
                   <div
                     key={skill}
-                    className="bg-gradient-to-r from-pink-700 to-pink-500 text-white px-4 py-3 rounded-xl text-sm font-semibold shadow-md hover:scale-105 transition"
+                    className="bg-gradient-to-r from-blue-700 to-blue-500 text-white px-4 py-3 rounded-xl text-sm font-semibold shadow-md hover:scale-105 transition"
                   >
                     {skill}
                   </div>
@@ -58,12 +58,12 @@ export default function ResumePage() {
 
             {/* Education */}
             <section className="mt-12">
-              <h2 className="text-2xl font-bold mb-5 text-pink-900 border-b-2 border-pink-300 pb-2">
+              <h2 className="text-2xl font-bold mb-5 text-pink-900 border-b-2 border-blue-300 pb-2">
                 Education
               </h2>
 
-              <div className="bg-white p-4 rounded-2xl shadow-md border border-pink-100">
-                <h3 className="font-bold text-pink-900 text-lg">
+              <div className="bg-white p-4 rounded-2xl shadow-md border border-blue-100">
+                <h3 className="font-bold text-blur-900 text-lg">
                   Diploma
                 </h3>
 
@@ -75,11 +75,11 @@ export default function ResumePage() {
 
             {/* Languages */}
             <section className="mt-12">
-              <h2 className="text-2xl font-bold mb-5 text-pink-900 border-b-2 border-pink-300 pb-2">
+              <h2 className="text-2xl font-bold mb-5 text-blue-900 border-b-2 border-blue-300 pb-2">
                 Languages
               </h2>
 
-              <div className="bg-white rounded-2xl p-4 shadow-md border border-pink-100">
+              <div className="bg-white rounded-2xl p-4 shadow-md border border-blue-100">
                 <ul className="space-y-3 text-sm text-gray-700">
                   <li className="flex items-center gap-2">
                     ✅ English
@@ -98,11 +98,11 @@ export default function ResumePage() {
 
             {/* Profile */}
             <section>
-              <h2 className="text-3xl font-extrabold mb-5 text-pink-900">
+              <h2 className="text-3xl font-extrabold mb-5 text-blue-900">
                 Profile
               </h2>
 
-              <div className="bg-pink-50 border border-pink-100 rounded-2xl p-6 shadow-sm">
+              <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6 shadow-sm">
                 <p className="text-gray-700 leading-8 text-[15px]">
                   Passionate student and aspiring full-stack developer with
                   knowledge in Next.js, React, Tailwind CSS, and modern web
@@ -115,16 +115,16 @@ export default function ResumePage() {
 
             {/* Experience */}
             <section className="mt-12">
-              <h2 className="text-3xl font-extrabold mb-6 text-pink-900">
+              <h2 className="text-3xl font-extrabold mb-6 text-blue-900">
                 Experience
               </h2>
 
-              <div className="bg-gradient-to-br from-pink-50 to-white border border-pink-100 rounded-2xl p-6 shadow-md hover:shadow-xl transition">
-                <h3 className="text-2xl font-bold text-pink-950">
+              <div className="bg-gradient-to-br from-blue-50 to-white border border-blue-100 rounded-2xl p-6 shadow-md hover:shadow-xl transition">
+                <h3 className="text-2xl font-bold text-blue-950">
                   Next JS Developer
                 </h3>
 
-                <p className="text-pink-600 font-semibold mt-1">
+                <p className="text-blue-600 font-semibold mt-1">
                   Intern
                 </p>
 
@@ -149,7 +149,7 @@ export default function ResumePage() {
 
             {/* Projects */}
             <section className="mt-12">
-              <h2 className="text-3xl font-extrabold mb-6 text-pink-900">
+              <h2 className="text-3xl font-extrabold mb-6 text-blue-900">
                 Projects
               </h2>
 
@@ -157,9 +157,9 @@ export default function ResumePage() {
                 {projects.map((project) => (
                   <div
                     key={project}
-                    className="bg-gradient-to-br from-pink-100 to-pink-50 border border-pink-200 rounded-2xl p-6 shadow-md hover:shadow-2xl hover:-translate-y-1 transition duration-300"
+                    className="bg-gradient-to-br from-blue-100 to-blue-50 border border-blue-200 rounded-2xl p-6 shadow-md hover:shadow-2xl hover:-translate-y-1 transition duration-300"
                   >
-                    <h3 className="font-bold text-xl text-pink-900">
+                    <h3 className="font-bold text-xl text-blue-900">
                       {project}
                     </h3>
 
