@@ -148,29 +148,38 @@ export default function ResumePage() {
             </section>
 
             {/* Projects */}
-            <section className="mt-12">
-              <h2 className="text-3xl font-extrabold mb-6 text-blue-900">
-                Projects
-              </h2>
+<section className="mt-12">
+  <h2 className="text-3xl font-extrabold mb-6 text-blue-900">
+    Projects
+  </h2>
 
-              <div className="grid md:grid-cols-2 gap-6">
-                {projects.map((project) => (
-                  <div
-                    key={project}
-                    className="bg-gradient-to-br from-blue-100 to-blue-50 border border-blue-200 rounded-2xl p-6 shadow-md hover:shadow-2xl hover:-translate-y-1 transition duration-300"
-                  >
-                    <h3 className="font-bold text-xl text-blue-900">
-                      {project}
-                    </h3>
+  <div className="grid md:grid-cols-2 gap-6">
+    {projects.map((project) => (
+      <div
+        key={project}
+        className="bg-gradient-to-br from-blue-100 to-blue-50 border border-blue-200 rounded-2xl p-6 shadow-md hover:shadow-2xl hover:-translate-y-1 transition duration-300"
+      >
+        <h3 className="font-bold text-xl text-blue-900">
+          {project}
+        </h3>
 
-                    <p className="text-sm text-gray-700 mt-3 leading-6">
-                      Developed using Next.js, TypeScript, Tailwind CSS,
-                      responsive UI design, APIs, and cloud-based deployment.
-                    </p>
-                  </div>
-                ))}
-              </div>
-            </section>
+        <p className="text-sm text-gray-700 mt-3 leading-6">
+          Developed using Next.js, TypeScript, Tailwind CSS,
+          responsive UI design, APIs, and cloud-based deployment.
+        </p>
+
+        <a
+          href="https://sathya-notebook.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-block mt-4 bg-blue-700 hover:bg-blue-800 text-white px-5 py-2 rounded-xl text-sm font-semibold transition"
+        >
+          ▶ Play
+        </a>
+      </div>
+    ))}
+  </div>
+</section>
 
           </section>
         </div>
