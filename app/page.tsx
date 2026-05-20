@@ -1,7 +1,7 @@
 export default function ResumePage() {
   const skills = ["HTML", "CSS", "JAVA", "NEXT JS", "PYTHON"];
 
-  const projects = ["Online Rental Car Booking System"];
+  const projects = ["E-COMMERCE PROJECT"];
 
   return (
     <main className="min-h-screen bg-gradient-to-br from-blue-100 via-blue-200 to-blue-300 py-10 px-4">
